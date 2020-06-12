@@ -1,0 +1,23 @@
+body {
+    color: #000;
+    text-align: center;
+}
+
+#content {
+    display: grid;
+    /* grid-template-columns: 33% 27% 40%; */
+    /* grid-template-columns: 1fr 2fr 3fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(9, 1fr);
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#content div{
+    background: #3bbced;
+    padding: 30px;
+}
+
+#content div:nth-child(even){
+    background-color: #777;
+}
